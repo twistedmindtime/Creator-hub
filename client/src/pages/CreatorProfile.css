@@ -1,0 +1,93 @@
+.creator-header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: var(--surface);
+  border-radius: 0.5rem;
+  border: 1px solid var(--border);
+}
+
+.creator-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.creator-info h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.creator-info p {
+  color: #94a3b8;
+  margin-bottom: 1rem;
+}
+
+.subscriber-count {
+  display: inline-block;
+  background: var(--primary);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-weight: bold;
+}
+
+.tiers-section h2 {
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+
+.tiers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.tier-card {
+  background: var(--surface);
+  border: 2px solid var(--border);
+  border-radius: 0.5rem;
+  padding: 2rem;
+  transition: all 0.3s ease;
+}
+
+.tier-card:hover {
+  border-color: var(--primary);
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(99, 102, 241, 0.2);
+}
+
+.tier-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.tier-price {
+  font-size: 1.8rem;
+  color: var(--primary);
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.tier-description {
+  color: #94a3b8;
+  margin-bottom: 1.5rem;
+}
+
+.tier-features {
+  list-style: none;
+  margin-bottom: 1.5rem;
+}
+
+.tier-features li {
+  padding: 0.5rem 0;
+  color: #cbd5e1;
+}
+
+.tier-card button {
+  width: 100%;
+}
